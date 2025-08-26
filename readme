@@ -1,0 +1,39 @@
+# 🐾 PetShop E-commerce
+
+Um e-commerce moderno e responsivo para petshops, desenvolvido com **Bootstrap** e **CSS Grid**.  
+O objetivo do projeto é criar uma plataforma simples e intuitiva para apresentação de produtos do dia a dia para pets, como rações, coleiras, brinquedos e muito mais.
+
+---
+
+## 🚀 Funcionalidades
+
+- 🛒 **Página de Produtos** com listagem organizada por seções (Rações, Coleiras, Brinquedos, etc.).
+- 📦 **Exibição de Produtos** com imagens, descrições e preços.
+- 🔍 **Interface Responsiva** para todos os dispositivos.
+- 📑 **Página de Política de Privacidade**.
+- 📬 **Formulário de Contato** funcional para clientes.
+
+---
+
+## 🖼️ Layout
+
+O projeto utiliza **Bootstrap 5** e **CSS Grid** para criar um design moderno, responsivo e intuitivo.
+
+| Página                 | Descrição                                |
+|-----------------------|------------------------------------------|
+| **Home**             | Destaques principais e promoções        |
+| **Produtos**         | Listagem organizada de produtos         |
+| **Contato**          | Formulário para dúvidas e sugestões     |
+| **Política e Privacidade** | Detalhamento dos termos do site      |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** → Estrutura do site  
+- **CSS3** → Estilização e layout responsivo  
+- **Bootstrap 5** → Componentes e grid system  
+- **CSS Grid** → Organização das seções de produtos  
+- **JavaScript** *(opcional, para interações dinâmicas)*
+
+---
