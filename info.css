@@ -1,0 +1,34 @@
+body {
+    background: #fff;
+}
+
+.page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.muted {
+    color: #6c757d;
+}
+
+details {
+    border: 1px solid #e9ecef;
+    border-radius: .5rem;
+    padding: .75rem 1rem;
+    background: #fff;
+}
+
+details + details {
+    margin-top: .75rem;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Remove marcador padrão de alguns navegadores */
+summary::marker {
+    content: "";
+}

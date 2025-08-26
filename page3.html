@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link href="contato.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Meu Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                   <li class="nav-item active">
+                        <a class="nav-link" href="index.html">PetShop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page1.html">Produtos Dia a Dia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Politica&Privacidade</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="page3.html">Contato</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="page4.html">Informações Gerais</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+  <div class="container">
+    <h1 class="h3 fw-bold"><i class="bi bi-paw-fill me-2"></i>Petshop</h1>
+    <p class="text-secondary mb-0">
+      Seu e-commerce de produtos para animais.<br>
+      Fale com a gente para tirar dúvidas sobre pedidos, entregas e produtos.
+    </p>
+  </div>
+</section>
+
+<main class="py-5">
+    <div class="container">
+        <div class="row g-4">
+    
+        <!-- TELEFONE / WHATSAPP -->
+      <div class="container">
+        <h2>Entre em Contato 🐾</h2>
+        <form>
+            <!-- Nome -->
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="exemplo@email.com" required>
+            </div>
+
+            <!-- Telefone -->
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="telefone" placeholder="(99) 99999-9999" required>
+            </div>
+
+            <!-- Assunto -->
+            <div class="mb-3">
+                <label for="assunto" class="form-label">Assunto</label>
+                <select class="form-select" id="assunto" required>
+                    <option value="" selected>Selecione um assunto</option>
+                    <option value="duvida">Dúvidas sobre produtos</option>
+                    <option value="agendamento">Agendamento de serviços</option>
+                    <option value="parceria">Parcerias e negócios</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <!-- Mensagem -->
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+
+            <!-- Botão Enviar -->
+            <div class="d-grid">
+                <button type="submit" class="btn btn-custom">Enviar Mensagem</button>
+            </div>
+        </form>
+    </div>
+    
+        </div>
+    
+        <!-- HORÁRIOS -->
+        <div class="row mt-5">
+        <div class="col-12 text-center">
+            <h2 class="h6"><i class="bi bi-clock me-2"></i>Horário de Atendimento</h2>
+            <p class="text-secondary mb-0">
+            Seg–Sex: 09h às 19h · Sáb: 09h às 15h · Dom: fechado
+            </p>
+        </div>
+        </div>
+    </div>
+</main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

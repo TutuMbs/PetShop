@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Exemplo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">PetShop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">PetShop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page1.html">Produtos Dia a Dia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Politica&Privacidade</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="page3.html">Contato</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="page4.html">Página 2</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   <div class="banner" style="background: url(./imgs/lindo-gato-domestico-deitado-em-cima-muro.jpg) no-repeat center center; background-size: cover; height: 500px; color: white; display: flex; justify-content: center; align-items: center; text-align: center; position: relative;">
+  <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.4);"></div>
+  <div class="container position-relative z-index-2">
+    <h1 class="display-3 font-weight-bold">PetShop - Seu Amigo Merece o Melhor</h1>
+    <p class="lead mb-4">Produtos de qualidade para cuidar do seu pet com amor e carinho.</p>
+    <a href="#produtos" class="btn btn-light btn-lg">Veja Nossos Produtos</a>
+  </div>
+</div>
+  <!-- Produtos -->
+  <div id="produtos" class="container my-5">
+    <h2 class="text-center mb-4">Nossos Produtos</h2>
+    <div class="row">
+      <!-- Produto 1 -->
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="https://images.tcdn.com.br/img/img_prod/742943/racao_begacao_natural_premium_caes_adultos_6691_1_94b44103188d3a9495cb9e2ab6a8f3f2.jpg " class="card-img-top" alt="Produto 1">
+          <div class="card-body">
+            <h5 class="card-title">Ração Premium</h5>
+            <p class="card-text">Alimentação de alta qualidade para o seu pet.</p>
+            <a href="#" class="btn btn-primary">Comprar Agora</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produto 2 -->
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="./imgs/284347ff40.webp" class="card-img-top" alt="Produto 2">
+          <div class="card-body">
+            <h5 class="card-title">Brinquedo Interativo</h5>
+            <p class="card-text">Divirta o seu pet com este brinquedo incrível!</p>
+            <a href="#" class="btn btn-primary">Comprar Agora</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produto 3 -->
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="./imgs/Caminha Basic Fusion Azul para Pet Cachorro Emporium Distripet.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body">
+            <h5 class="card-title">Cama Confortável</h5>
+            <p class="card-text">Proporcione um sono tranquilo para o seu amigo de quatro patas.</p>
+            <a href="#" class="btn btn-primary">Comprar Agora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seção Informativa -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Sobre o PetShop</h3>
+        <p>Somos uma loja especializada em produtos para pets. Trabalhamos com as melhores marcas do mercado e garantimos qualidade, conforto e segurança para o seu animal de estimação. Aqui você encontra desde ração, brinquedos, até acessórios especiais para o seu pet.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Por que escolher-nos?</h3>
+        <ul>
+          <li>Entrega rápida e segura</li>
+          <li>Produtos de alta qualidade</li>
+          <li>Preços acessíveis</li>
+          <li>Atendimento personalizado</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2025 PetShop | Todos os direitos reservados</p>
+      <p>Redes sociais: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.0/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
